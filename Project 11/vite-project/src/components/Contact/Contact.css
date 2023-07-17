@@ -1,0 +1,29 @@
+.contact {
+    background-color: #fafafa;
+    padding: 20px;
+  }
+  
+  .contact form {
+    margin-top: 20px;
+  }
+  
+  .contact form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .contact form button {
+    background-color: #14579e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

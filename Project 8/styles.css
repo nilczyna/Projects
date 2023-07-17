@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 246, 242);
+}
+
+header {
+    background-color: #97bfd2;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#mainContent {
+    padding: 20px;
+}
+
+#loader {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    color: palevioletred; 
+}
+
+.hidden {
+    display: none;
+}
+
+#postFormContainer {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+#postFormContainer h2 {
+    margin-top: 0;
+}
+
+#postFormContainer label {
+    display: block;
+    margin-top: 10px;
+}
+
+#postFormContainer input,
+#postFormContainer textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #97bfd2;
+}
+
+#postFormContainer button {
+    margin-top: 10px;
+    
+}
+
+#addPostButton {
+background-color: rgb(171, 148, 184);
+border: solid 2px white;
+color: white;
+border-radius: 10px;
+}
+
+.addingPost{
+background-color: rgb(171, 148, 184);
+border: solid 2px white;
+color: white;
+border-radius: 2px;
+height: 50px;
+width: 200px;
+text-align: center;
+padding-top: 20px;
+}
+
+#titleHeader{
+    color: black;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#contentName{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;   
+}
+#authorName{
+    color: black;
+   font-size: 16px;
+   font-weight: bold;
+}
+.saveButton{
+    background-color: rgb(171, 148, 184);
+    border: solid 2px white;
+    color: white;
+    border-radius: 2px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#mainContent {
+    color:rgb(232, 129, 56);
+    box-sizing: border-box;
+    border: #97bfd2 2px ;
+
+}
+
+#mainContent button{
+    background-color: rgb(171, 148, 184);
+    border: solid 2px white;
+    color: white;
+    border-radius: 2px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

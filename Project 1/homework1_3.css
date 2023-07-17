@@ -1,0 +1,39 @@
+.header {
+  width: 372px;
+  height: 171px;
+  top: 549px;
+  left: 437px;
+  border-radius: 10px;
+  background: transparent
+    url("https://images.unsplash.com/photo-1553578827-0df58e305953?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJlYWNoJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60")
+    0% 0% no-repeat padding-box;
+}
+
+.header h3 {
+  top: 586px;
+  left: 465px;
+  width: 67px;
+  height: 11px;
+  text-align: left;
+  font: normal normal bold 11px/13px Gotham;
+  letter-spacing: 2.2px;
+  color: #ffffff;
+  padding-top: 37px;
+  padding-left: 28px;
+  padding-right: 277px;
+}
+
+.header p {
+  top: 625px;
+  left: 465px;
+  width: 310px;
+  height: 62px;
+  text-align: left;
+  font: normal normal normal 16px/20px Gotham;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-top: 28px;
+  padding-left: 28px;
+  padding-right: 34px;
+  padding-bottom: 33px;
+}

@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "title": "Italian cuisine",
+      "content": "Tell me about tastes of Sicily",
+      "author": "Marco",
+      "date": "28.05.2023, 14:53:52",
+      "id": 1
+    },
+    {
+      "title": "What kind of pasta do you like the most?",
+      "content": "Tortellini, Ravioli, Gnochci.",
+      "author": "Paola ",
+      "date": "28.05.2023, 17:41:17",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile version</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="mobile.css" />
+    <script src="homework6.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <main>
+        <section class="main__left">
+            <section class="section__bill">
+              <label for="bill">Bill</label>
+              <section class="bill">
+                <img src="images/icon-dollar.svg" alt="icon dollar">
+                <input class="input" type="number" name="bill" placeholder="0" value="">
+              </section>         
+            </section>
+            
+            <section class="main__tips">
+                <p>Select Tip %</p>
+                <div class="buttons">
+                  <button class="button" value="5">5%</button>
+                  <button class="button" value="10">10%</button>
+                  <button class="button" value="15">15%</button>
+                </div>
+            </section>
+            <section class="section__people">
+              <div class="number__of__people">
+                <p>Number of People</p>
+                <p class="if-zero-number"></p>
+              </div>
+              <div class="number__people">
+                <img src="images/icon-person.svg" alt="icon person">
+                <input class="input" type="number" name="" placeholder="0" value=""> 
+              </div> 
+              <button class="button__calculate" disabled>Calculate</button>
+            </section>
+          </section>
+          
+          <section class="main__right">
+            <section class="tip__amount">
+              <div>
+                <p class="tip_person">Tip Amount</p>
+                <p class="person">/ person</p>
+              </div>
+              <div class="tip_total">
+                <div class="dollar"></div>
+               <span>$</span><span id="result-tip">0.00</span>
+              </div>
+            </section>
+            <section class="total__person">
+              <div>
+                <p class="tip_person">Total</p>
+                <p class="person">/ person</p>
+              </div>
+              <div class="tip_total">
+                <div class="dollar"></div>
+                <span>$</span><span id="result-total">0.00</span>
+              </div>
+            </section>
+            <button class="button-reset" disabled>Reset</button>
+          </section>
+    </main>
+</body>
+</html>
